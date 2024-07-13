@@ -1,1 +1,3 @@
-Our deep learning model for classifying images trained on [Kaggle's PetFinder contest](https://www.kaggle.com/competitions/petfinder-pawpularity-score).
+# Environment
+With Python 3.8.10, the requirementes are installed using:
+``pip install -r requirements.txt -f https://download.pytorch.org/whl/torch_stable.html``
