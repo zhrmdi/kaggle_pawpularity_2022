@@ -22,8 +22,8 @@ source /home/arashash/projects/def-lombaert/arashash/Pawpularity/ENV_new_timm/bi
 # set the environment variables
 export NCCL_BLOCKING_WAIT=1 # set this variable to avoid timeout errors in Pytorch Lightning
 export CUDA_VISIBLE_DEVICES=0,1,2,3 # assign ids to gpus
-export WANDB_API_KEY="df0659f203d58aa94ba907e6f96bc569f59749ef" # wandb login info
-export WANDB_USERNAME="netneuro"
+export WANDB_API_KEY="" # wandb login info
+export WANDB_USERNAME=""
 export WANDB_CACHE_DIR="/scratch/arashash/Pawpularity/tmp/"
 export WANDB_MODE=offline
 
